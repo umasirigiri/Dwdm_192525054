@@ -1,0 +1,7 @@
+marks <- c(78, 85, 90, 67, 88, 76, 95, 82, 70, 89)
+cat("Student Marks:\n")
+print(marks)
+cat("Mean:", mean(marks), "\n")
+cat("Median:", median(marks), "\n")
+cat("Variance:", var(marks), "\n")
+cat("Standard Deviation:", sd(marks), "\n")

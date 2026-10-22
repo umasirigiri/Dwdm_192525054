@@ -1,0 +1,10 @@
+set.seed(25)
+x <- runif(20, 0, 100)
+print(x)
+cat("Minimum:", min(x), "\n")
+cat("Maximum:", max(x), "\n")
+cat("Mean:", mean(x), "\n")
+cat("Median:", median(x), "\n")
+print(summary(x))
+hist(x, main="Histogram of Random Values",
+     xlab="Values", col="lightblue")

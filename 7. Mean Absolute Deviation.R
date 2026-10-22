@@ -1,0 +1,5 @@
+x <- c(14, 18, 20, 23, 27, 31, 36)
+m <- mean(x)
+MAD <- mean(abs(x - m))
+print(m)
+print(MAD)
